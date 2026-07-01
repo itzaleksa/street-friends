@@ -1,7 +1,30 @@
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 :root {
-    background-image: url("../assets/images/alek-doodle-pilot-outro.png");
+    background-color: black;
+    /* background-image: url("../assets/images/backgrounds/alek-doodle-pilot-outro.png"); */
     background-size: contain;
 }
+
+
+/* Applying background animation to the root */
+:root::before {
+    content: "";
+    position: fixed; /* Keeps it stuck to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/backgrounds/alek-doodle-pilot-outro.png");
+    background-size: contain;
+    z-index: -1; /* Keeps it behind the content */
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
 
 html, body {
     margin: 0;
@@ -28,7 +51,7 @@ body {
 }
 
 .middle-container > * {
-    width: 90%;
+    width: 80%;
 }
 
 /* Title Container */
@@ -91,6 +114,16 @@ body {
 }
 
 
+/* Content Container */
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh 0;
+}
+
+
 /* Support Container */
 
 .support-container {
@@ -128,4 +161,11 @@ body {
 .social-icon {
     aspect-ratio: 1/1;
     width: 100%;
+}
+
+
+/* Copyright Container */
+.copyright-container {
+    text-align: center;
+    font-size: x-small;
 }
