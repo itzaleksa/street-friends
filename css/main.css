@@ -1,6 +1,6 @@
 :root {
-    background-color: black;
-    color: white;
+    background-image: url("../assets/images/alek-doodle-pilot-outro.png");
+    background-size: contain;
 }
 
 html, body {
@@ -23,7 +23,7 @@ body {
     height: 100vh;
     /* Items */
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .middle-container > * {
@@ -90,6 +90,25 @@ body {
 }
 
 
+/* Support Container */
+
+.support-container {
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    /* Debug Color */
+    /* background-color: red; */
+}
+
+.support-title {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+}
+
 /* Socials Bar */
 .socials-container {
     display: flex;
@@ -103,10 +122,6 @@ body {
     /* Debug Color */
     /* background-color: red; */
     margin: 0 0.5vw;
-}
-
-.social-button:hover {
-    cursor: pointer;
 }
 
 .social-icon {
