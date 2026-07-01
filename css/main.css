@@ -1,0 +1,101 @@
+:root {
+    background-color: black;
+    color: white;
+}
+
+html, body {
+    margin: 0;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    /* Self */
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    min-width: 384px;
+    min-height: 100vh;
+    justify-self: center;
+    /* Items */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.middle-container > * {
+    width: 90%;
+}
+
+/* Title Container */
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Logo */
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    aspect-ratio: 2 / 1;
+    height: 12.5vh;
+}
+
+
+/* Separator */
+
+.separator {
+    background-color: white;
+    height: 10px;
+    border-radius: 50px;
+}
+
+/* Navigation Bar */
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vh 0%;
+    /* Move items to center */
+    justify-content: center;
+}
+
+.nav-button {
+    width: 10vw;
+    margin: 0 1vw;
+    /* Debug color */
+    /* background-color: red; */
+}
+
+.nav-icon {
+    width: 100%;
+}
+
+
+/* Socials Bar */
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    /* Move items to center */
+    justify-content: center;
+}
+
+.social-button {
+    width: 5vh;
+    /* Debug Color */
+    /* background-color: red; */
+    margin: 0 0.5vw;
+}
+
+.social-button:hover {
+    cursor: pointer;
+}
+
+.social-icon {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
