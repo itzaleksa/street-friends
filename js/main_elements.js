@@ -21,7 +21,7 @@ const navigation_bar = `
 const support_bar = `
 <div class="support-container">
     <div class="separator"></div>
-    <h1 class="content-title">SUPPORT US!</h1>
+    <h1 class="support-title">SUPPORT US!</h1>
     <div class="socials-container">
         <a id="discord-button" class="social-button" href="https://discord.gg/PCBxQrbmub">
             <img class="social-icon" src="assets/images/discord.png" alt="Discord">
