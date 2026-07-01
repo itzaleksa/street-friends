@@ -7,15 +7,20 @@ html, body {
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .middle-container {
     display: flex;
     flex-direction: column;
-    /* Self */
     background-color: rgb(0, 0, 0);
-    width: 50%;
+    width: 40%;
     min-width: 384px;
-    min-height: 100vh;
-    justify-self: center;
+    height: 100vh;
     /* Items */
     align-items: center;
     justify-content: flex-start;
@@ -48,10 +53,19 @@ html, body {
 
 /* Separator */
 
-.separator {
-    background-color: white;
+.separator, .separator-invis {
+    margin: 15px 0;
     height: 10px;
     border-radius: 50px;
+}
+
+.separator {
+    background-color: white;
+
+}
+
+.separator-invis {
+    background-color: transparent;
 }
 
 /* Navigation Bar */
@@ -65,7 +79,7 @@ html, body {
 }
 
 .nav-button {
-    width: 10vw;
+    width: 15vh;
     margin: 0 1vw;
     /* Debug color */
     /* background-color: red; */

@@ -1,6 +1,6 @@
 :root {
     background-image: url("../assets/images/alek-doodle-pilot-outro.png");
-    background-size: round;
+    background-size: contain;
 }
 
 .content-container {
@@ -16,6 +16,8 @@
     font-size: 5vh;
 }
 
+/* Index.html related */
+
 #about-description {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,5 +25,5 @@
 }
 
 #alek-splash {
-    width: 50%;
+    width: 25%;
 }
