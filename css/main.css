@@ -38,13 +38,25 @@ body {
     align-items: center;
 }
 
+/* Utility Classes */
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+
+/* Middle Container */
+
 .middle-container {
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
     width: 40%;
     min-width: 384px;
-    height: 100vh;
+    height: 100%;
+    border: 5px dashed black;
+    
     /* Items */
     align-items: center;
     justify-content: space-between;
@@ -81,6 +93,7 @@ body {
     margin: 15px 0;
     height: 10px;
     border-radius: 50px;
+    width: 100%;
 }
 
 .separator {
@@ -130,7 +143,7 @@ body {
     display: flex;
     flex-direction: column;
     
-    /* align-items: flex-end; */
+    align-items: center;
     justify-content: flex-end;
     /* Debug Color */
     /* background-color: red; */
@@ -148,14 +161,22 @@ body {
     display: flex;
     flex-direction: row;
     /* Move items to center */
+    justify-content: space-between;
+    width: 50%;
+}
+
+.socials-container-portrait {
+    display: flex;
+    flex-direction: row;
+    /* Move items to center */
     justify-content: center;
+    width: 60%;
 }
 
 .social-button {
     width: 5vh;
     /* Debug Color */
     /* background-color: red; */
-    margin: 0 0.5vw;
 }
 
 .social-icon {

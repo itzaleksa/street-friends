@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+}
+
 #about-title {
     margin: 0;
     text-align: center;

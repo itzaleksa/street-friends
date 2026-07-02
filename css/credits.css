@@ -8,25 +8,11 @@
 }
 
 .portrait {
-    position: relative;
     aspect-ratio: 1/1;
-    min-width: 128px;
-    max-width: 256px;
+    min-width: 256px;
+    max-width: 384px;
     width: 10vw;
     background-color: transparent;
-}
-
-.portrait-image {
-    aspect-ratio: 1 / 1;
-    width: 100%;
-}
-
-.portrait-frame {
-    position: absolute;
-    top: 0;
-    right: 0;
-    aspect-ratio: 1/1;
-    width: 100%;
 }
 
 .portrait-title {
@@ -38,4 +24,19 @@
     margin: 0;
     font-size: small;
     text-align: center;
+}
+
+#kev-container {
+    display: flex;
+    flex-direction: column;
+    height: 384px;
+}
+
+#kev {
+    margin-top: 24px;
+    width: 192px;
+}
+
+#kev:hover {
+    cursor: pointer;
 }
