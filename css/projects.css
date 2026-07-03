@@ -1,24 +1,64 @@
 body {
     height: 100vh;
+    overflow: hidden;
 }
 
 #tv {
     position: absolute;
-    top: 25vh;
+    top: 33vh;
+    left: 50vw;
     aspect-ratio: 1 / 1;
+    width: 256px;
     height: 256px;
+    transform: translate(-50%, -20%);
+    transition: all 1s ease-in-out;
+    z-index: 2;
+}
+
+#tv.tv-fullscreen {
+    width: 512px;
+    height: 512px;
+}
+
+#screen, #bootup-video {
+    position: absolute;
+    top: 34.25vh;
+    left: 50vw;
+    width: 175px;
+    height: 120px;
+    transform: translate(-50%, -25%);
+    transition: all 1s ease-in-out;
+    z-index: 1;
+}
+
+#screen.tv-fullscreen {
+    top: 35.5vh;
+    width: 325px;
+    height: 240px;
+}
+
+#bootup-video.tv-fullscreen {
+    object-fit: fill;
+    top: 35.5vh;
+    width: 325px;
+    height: 240px;
+}
+
+#disc-sf {
+    left: calc(50% - 64px);
+}
+
+#disc-debug {
+    left: calc(40% - 64px);
 }
 
 .disc {
     position: fixed;
     bottom: 25%;
     width: 128px;
+    z-index: 3;
 }
 
 .disc:hover {
     cursor: grab;
-}
-
-.disc.active {
-    cursor: grabbing;
 }

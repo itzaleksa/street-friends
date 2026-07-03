@@ -12,7 +12,7 @@ const navigation_bar = `
             <img class="nav-icon" src="assets/images/navigation/about.png" alt="About">
         </a>
         <a class="nav-button" href="sft_projects.html">
-            <img class="nav-icon" src="assets/images/navigation/projects.png" alt="Shows">
+            <img class="nav-icon" src="assets/images/navigation/projects.png" alt="Projects">
         </a>
     </nav>
 </div>
@@ -23,19 +23,19 @@ const support_bar = `
     <div class="separator"></div>
     <h1 class="support-title">SUPPORT US!</h1>
     <div class="socials-container">
-        <a id="discord-button" class="social-button" href="https://discord.gg/PCBxQrbmub">
+        <a class="social-button" href="https://discord.gg/PCBxQrbmub">
             <img class="social-icon" src="assets/images/socials/discord.png" alt="Discord">
         </a>
-        <a id="youtube-button" class="social-button" href="https://www.youtube.com/@street_friends">
+        <a class="social-button" href="https://www.youtube.com/@street_friends">
             <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
         </a>
-        <a id="twitter-button" class="social-button" href="https://x.com/street_friends_">
+        <a class="social-button" href="https://x.com/street_friends_">
             <img class="social-icon" src="assets/images/socials/twitter.png" alt="Twitter">
         </a>
-        <a id="tiktok-button" class="social-button" href="https://www.tiktok.com/@street__friends">
+        <a class="social-button" href="https://www.tiktok.com/@street__friends">
             <img class="social-icon" src="assets/images/socials/tiktok.png" alt="TikTok">
         </a>
-        <a id="instagram-button" class="social-button" href="https://www.instagram.com/sf.street_friends/">
+        <a class="social-button" href="https://www.instagram.com/sf.street_friends/">
             <img class="social-icon" src="assets/images/socials/instagram.png" alt="Instagram">
         </a>
     </div>

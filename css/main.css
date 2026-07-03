@@ -1,3 +1,6 @@
+@view-transition {
+    navigation: auto;
+}
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -6,25 +9,9 @@
 
 :root {
     background-color: black;
-    /* background-image: url("../assets/images/backgrounds/alek-doodle-pilot-outro.png"); */
-    background-size: contain;
-}
-
-
-/* Applying background animation to the root */
-:root::before {
-    content: "";
-    position: fixed; /* Keeps it stuck to the viewport */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background-image: url("../assets/images/backgrounds/alek-doodle-pilot-outro.png");
-    background-size: contain;
-    z-index: -1; /* Keeps it behind the content */
-    animation: fadeIn 1s ease-in-out forwards;
+    background-size: cover;
 }
-
 
 html, body {
     margin: 0;

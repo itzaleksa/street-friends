@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+}
+
+.middle-container {
+    justify-content: flex-start;
+}
+
+#alek {
+    color: #5737CF;
+}
+
+#qd {
+    color: #145B9A;
+}
+
+#squiddo {
+    color: #D4100F;
+}
+
+#doggie {
+    color: #DB7737;
+}
