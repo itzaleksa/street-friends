@@ -1,10 +1,23 @@
-body {
-    height: 100vh;
+:root {
+    background-image: url("../assets/images/backgrounds/park-town-render.png");
+    background-size: cover;
 }
 
 .middle-container {
-    justify-content: flex-start;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
 }
+
+.logo {
+    aspect-ratio: 5/4;
+}
+
+.description {
+    font-size: medium;
+}
+
+/* Text Highlighting */
 
 #alek {
     color: #5737CF;
@@ -20,4 +33,67 @@ body {
 
 #doggie {
     color: #DB7737;
+}
+
+/* Pictures Container */
+
+.pictures-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.picture-link {
+    /* width: 6.5vw; */
+    width: 20%;
+    margin: 0.5vw;
+}
+
+.picture {
+    width: 100%;
+}
+
+
+/* Chibi Container */
+
+.support-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.chibi-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.chibi {
+    height: 10vh;
+}
+
+#home-button {
+    width: 5vh;
+}
+
+/*
+.social-button {
+    width: 5vh;
+}
+
+.social-icon {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+*/
+
+#home-image {
+    aspect-ratio: 1/1;
+    width: 100%;
 }

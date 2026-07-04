@@ -9,13 +9,13 @@
 
 :root {
     background-color: black;
-    background-image: url("../assets/images/backgrounds/alek-doodle-pilot-outro.png");
-    background-size: cover;
+    background-size: contain;
 }
 
 html, body {
     margin: 0;
     color: white;
+    /* height: 100%; */
 }
 
 body {
@@ -42,7 +42,6 @@ body {
     width: 40%;
     min-width: 384px;
     height: 100%;
-    border: 5px dashed black;
     
     /* Items */
     align-items: center;
@@ -59,6 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /* Logo */
@@ -76,20 +76,29 @@ body {
 
 /* Separator */
 
-.separator, .separator-invis {
+.separator, .separator-full, .separator-invis, .separator-invis-full {
     margin: 15px 0;
     height: 10px;
     border-radius: 50px;
-    width: 100%;
 }
 
 .separator {
     background-color: white;
+    width: 75%;
+}
 
+.separator-full {
+    background-color: white;
+    width: 100%;
 }
 
 .separator-invis {
     background-color: transparent;
+}
+
+.separator-invis-full {
+    background-color: transparent;
+    width: 100%;
 }
 
 /* Navigation Bar */
@@ -103,7 +112,7 @@ body {
 }
 
 .nav-button {
-    width: 15vh;
+    width: 8vw;
     margin: 0 1vw;
     /* Debug color */
     /* background-color: red; */
@@ -120,7 +129,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1vh 0;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+}
+
+.description {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
 }
 
 

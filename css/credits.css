@@ -1,3 +1,7 @@
+:root {
+    background-image: url("../assets/images/backgrounds/alek-doodle-pilot-outro.png");
+}
+
 .portrait-container {
     display: flex;
     flex-direction: column;
