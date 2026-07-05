@@ -1,6 +1,10 @@
 :root {
-    background-image: url("../assets/images/backgrounds/park-town-render.png");
+    background-image: url("../assets/images/backgrounds/episodes.png");
     background-size: cover;
+}
+
+.logo {
+    aspect-ratio: 5/4;
 }
 
 .middle-container {
@@ -9,46 +13,24 @@
     background-color: rgba(0,0,0,0.5);
 }
 
-.logo {
-    aspect-ratio: 5/4;
-}
-
-.description {
-    font-size: medium;
-}
-
-/* Text Highlighting */
-
-#alek {
-    color: #5737CF;
-}
-
-#qd {
-    color: #145B9A;
-}
-
-#squiddo {
-    color: #D4100F;
-}
-
-#doggie {
-    color: #DB7737;
-}
-
-/* Pictures Container */
-
-.pictures-container {
+/* Episodes Container */
+#episodes-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: flex-start;
     width: 100%;
+    gap: 0.5vw;
 }
 
-.picture {
-    width: 20%;
-    margin: 0.5vw;
+.episode {
+    width: 9vw;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.episode:hover {
     cursor: pointer;
 }
 

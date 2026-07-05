@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+}
+
+.bg-image {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: contain;
+}
+
+.interactable-container {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+
+.interactable {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    width: 2.5%;
+    background-color: rgba(255, 0, 255, 0.5);
+}
+
+#debug-interactable {
+    top: 37%;
+    left: 51.25%;
+    width: 1%;
+    height: 4%;
+}
+
+#home-button {
+    position: fixed;
+    bottom: 2.5%;
+    width: 64px;
+}

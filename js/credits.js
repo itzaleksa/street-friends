@@ -6,6 +6,9 @@ const portraits = /*html*/`
         <a class="social-button" href="https://www.youtube.com/@Aleksa_2021">
             <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
         </a>
+        <a class="social-button" href="https://www.tiktok.com/@sft_alek">
+            <img class="social-icon" src="assets/images/socials/tiktok.png" alt="TikTok">
+        </a>
     </div>
     <p class="portrait-line"><b>FOUNDER of SFT</b></p>
     <p class="portrait-line"><b>DIRECTOR of Street Friends</b></p>
