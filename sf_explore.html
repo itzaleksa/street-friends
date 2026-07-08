@@ -11,19 +11,21 @@
         <link rel="stylesheet" href="css/sf_explore.css">
         <!-- JS -->
         <script src="js/cash.min.js"></script>
-        <script src="js/main_elements_sf.js"></script>
+        <script src="js/sf_explore.js"></script>
     </head>
     <body>
+        <button onclick="window.location.href='sf_about.html'" type="button" class="back-button">Back</button>
         <img class="bg-image" src="assets/images/backgrounds/explorer_render.png" alt="Something went wrong loading the explorer map!">
         <div class="interactable-container">
-            <div onclick="window.location.href='#'" id="larg-interactable" class="interactable"></div>
-            <div onclick="window.location.href='#'" id="candy-store-interactable" class="interactable"></div>
+            <div data-hover="larg" id="larg-interactable" class="interactable"></div>
+            <div data-hover="candy-store" id="candy-store-interactable" class="interactable"></div>
             <div onclick="window.location.href='what.html'" id="abandoned-interactable" class="interactable"></div>
-            <div onclick="window.location.href='#'" id="campfire-interactable" class="interactable"></div>
-            <div onclick="window.location.href='#'" id="hospital-interactable" class="interactable"></div>
-            <div onclick="window.location.href='#'" id="gated-playground-interactable" class="interactable"></div>
-            <div onclick="window.location.href='#'" id="mall-interactable" class="interactable"></div>
+            <div data-hover="campfire" id="campfire-interactable" class="interactable"></div>
+            <div data-hover="hospital" id="hospital-interactable" class="interactable"></div>
+            <div data-hover="gated-playground" id="gated-playground-interactable" class="interactable"></div>
+            <div data-hover="mall" id="mall-interactable" class="interactable"></div>
         </div>
+        <img class="tooltip" src="assets/images/placeholder.jpg" alt="placeholder">
         <a id="home-button" href="sf_about.html">
             <img id="home-image" class="nav-icon" src="assets/images/navigation/home-button.png" alt="Home">
         </a>

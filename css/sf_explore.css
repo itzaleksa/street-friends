@@ -11,6 +11,10 @@ body {
     object-fit: contain;
 }
 
+.back-button {
+    z-index: 3;
+}
+
 .interactable-container {
     position: relative;
     aspect-ratio: 16 / 9;
@@ -24,11 +28,19 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    cursor: pointer;
+    cursor: help;
     width: 2.5%;
     margin: 0;
     /* Comment background-color later */
     background-color: rgba(255, 0, 255, 0.5);
+}
+
+.tooltip {
+    position: absolute;
+    aspect-ratio: 1/1;
+    width: 10%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
 
@@ -42,8 +54,7 @@ body {
 
 
 #abandoned-interactable {
-    /* Uncomment! */
-    /* display: none; */
+    display: none;
     top: 21.25%;
     left: 14.5%;
     width: 2%;

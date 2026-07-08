@@ -1,5 +1,6 @@
 :root {
     background-image: url("../assets/images/backgrounds/alek-doodle-pilot-outro.png");
+    background-size: 100vw;
 }
 
 body {
@@ -11,4 +12,44 @@ body {
     aspect-ratio: 1 / 1;
     height: 40%;
     object-fit: contain;
+}
+
+#alek-eye {
+    position: absolute;
+    /* background-color: purple; */
+    width: 1.5%;
+    height: 1%;
+    top: 25.6vw;
+    left: 17.25%;
+    border-radius: 50%;
+}
+
+@media (max-width: 1080px) {
+    html {
+        height: 100dvh;
+    }
+    .nav-container {
+        width: 75%;
+        margin: 1vh 0%;
+    }
+    .nav-button {
+        width: 20vw;
+    }
+    .middle-container {
+        width: 100vw;
+        height: 100dvh;
+        background-color: rgba(0,0,0,0.75);
+    }
+    .title {
+        font-size: 4vh;
+    }
+    .description {
+        font-size: 2vh;
+    }
+    .separator {
+        height: 5px;
+    }
+    .support-container {
+        width: 100%;
+    }
 }
