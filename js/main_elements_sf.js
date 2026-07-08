@@ -24,9 +24,7 @@ const chibi_bar = `
         <img class="chibi" src="assets/images/splashes/doggie_chibi_splash.png" alt="Doggie Chibi">
         <img class="chibi" src="assets/images/splashes/alek_chibi_splash.png" alt="Alek Chibi">
     </div>
-    <a id="home-button" href="index.html">
-        <img id="home-image" class="nav-icon" src="assets/images/navigation/home-button.png" alt="Home">
-    </a>
+    <img onclick="window.location.href='index.html'" id="home-image" class="nav-icon" src="assets/images/navigation/home-button.png" alt="Home">
     <div class="chibi-section">
         <img class="chibi" src="assets/images/splashes/qd_chibi_splash.png" alt="QD Chibi">
         <img class="chibi" src="assets/images/splashes/squiddo_chibi_splash.png" alt="Squiddo Chibi">

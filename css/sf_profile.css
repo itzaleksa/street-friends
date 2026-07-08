@@ -1,4 +1,27 @@
 body {
     height: 100vh;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15vw;
 }
 
+.spotlight-overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.character-image {
+    width: 25vw;
+    align-self: flex-end;
+    margin-bottom: 5%;
+}
+
+.right-container {
+    z-index: 2;
+}
+
+.back-button {
+    z-index: 3;
+}
