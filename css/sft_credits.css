@@ -9,6 +9,7 @@
     justify-content: flex-start;
     gap: 0px;
     width: 60%; /* To keep things clumped up*/
+    margin-bottom: 5vh;
 }
 
 .portrait {

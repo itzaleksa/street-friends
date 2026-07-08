@@ -15,7 +15,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Animator, Main Writer, Artist, Storyboard, Animatics, Voice Actor of Alek, Editor.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0002.png" alt="Portrait">
     <h1 class="portrait-title">targetbuldoser</h1>
@@ -29,7 +29,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Lead Animator, Artist, Animatics, Musician, Voice Actor of Mike and Awren.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0013.png" alt="Portrait">
     <h1 class="portrait-title">[SFT] Nick</h1>
@@ -46,7 +46,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Lead Writer, Voice Actor of QD.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0006.png" alt="Portrait">
     <h1 class="portrait-title">Mystery</h1>
@@ -59,7 +59,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Site Coder, Musician, Game Developer, Voice Actor of Anxiety. </p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0003.png" alt="Portrait">
     <h1 class="portrait-title">UTX</h1>
@@ -74,7 +74,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Animator, Animatics.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0005.png" alt="Portrait">
     <h1 class="portrait-title">Meko</h1>
@@ -86,7 +86,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Animator.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0009.png" alt="Portrait">
     <h1 class="portrait-title">smollethan</h1>
@@ -98,14 +98,14 @@ const portraits = /*html*/`
     <p class="portrait-line">3D Modeler, Animatics.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0010.png" alt="Portrait">
     <h1 class="portrait-title">PieseleQ</h1>
     <p class="portrait-line">3D Modeler.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0019.png" alt="Portrait">
     <h1 class="portrait-title">Savage</h1>
@@ -123,7 +123,7 @@ const portraits = /*html*/`
     <p class="portrait-line">3D Modeler.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0014.png" alt="Portrait">
     <h1 class="portrait-title">Lanky</h1>
@@ -138,7 +138,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Musician.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0011.png" alt="Portrait">
     <h1 class="portrait-title">TenThousandBees</h1>
@@ -150,7 +150,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Musician.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0017.png" alt="Portrait">
     <h1 class="portrait-title">Kone</h1>
@@ -165,7 +165,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Editor.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0004.png" alt="Portrait">
     <h1 class="portrait-title">Mika</h1>
@@ -177,7 +177,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Editor.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0008.png" alt="Portrait">
     <h1 class="portrait-title">gl1ttrqueen</h1>
@@ -189,7 +189,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Voice Actor of Doggie.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0012.png" alt="Portrait">
     <h1 class="portrait-title">Disturdy</h1>
@@ -201,7 +201,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Musician, Editor, Voice Actor of Squiddo.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0018.png" alt="Portrait">
     <h1 class="portrait-title">JillAstra</h1>
@@ -216,7 +216,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Editor, Voice Actor of Jake.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0007.png" alt="Portrait">
     <h1 class="portrait-title">Judi</h1>
@@ -231,14 +231,14 @@ const portraits = /*html*/`
     <p class="portrait-line">Voice Actor of Emily, Clawdy, Ice Cream and Lady, Karen.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0015.png" alt="Portrait">
     <h1 class="portrait-title">Tali</h1>
     <p class="portrait-line">Voice Actor of Alyson.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0016.png" alt="Portrait">
     <h1 class="portrait-title">Plam</h1>
@@ -250,7 +250,7 @@ const portraits = /*html*/`
     <p class="portrait-line">Voice Actor of Robber Robert.</p>
 </div>
 
-<div class="separator-invis"></div>
+
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0020.png" alt="Portrait">
     <h1 class="portrait-title">Sunny</h1>

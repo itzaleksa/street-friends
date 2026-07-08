@@ -12,29 +12,83 @@ body {
 }
 
 .interactable-container {
+    position: relative;
     aspect-ratio: 16 / 9;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
 .interactable {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     cursor: pointer;
     width: 2.5%;
+    margin: 0;
+    /* Comment background-color later */
     background-color: rgba(255, 0, 255, 0.5);
 }
 
-#debug-interactable {
-    top: 37%;
-    left: 51.25%;
-    width: 1%;
-    height: 4%;
-}
 
 #home-button {
     position: fixed;
     bottom: 2.5%;
     width: 64px;
+}
+
+/* Interactable id's */
+
+
+#abandoned-interactable {
+    /* Uncomment! */
+    /* display: none; */
+    top: 21.25%;
+    left: 14.5%;
+    width: 2%;
+    height: 2.25%;
+    rotate: 15deg;
+}
+
+#larg-interactable {
+    top: 49.1%;
+    left: 60%;
+    width: 1.6%;
+    height: 3%;
+}
+
+#candy-store-interactable {
+    top: 50%;
+    left: 64.3%;
+    width: 1.7%;
+    height: 2.8%;
+}
+
+#campfire-interactable {
+    top: 66%;
+    left: 9.65%;
+    width: 4.25%;
+    height: 8.5%;
+}
+
+#hospital-interactable {
+    top: 68%;
+    left: 56.9%;
+    width: 4.75%;
+    height: 7.5%;
+}
+
+#gated-playground-interactable {
+    top: 51%;
+    left: 70.75%;
+    width: 6.75%;
+    height: 10%;
+}
+
+#mall-interactable {
+    top: 70.5%;
+    left: 83.5%;
+    width: 7.5%;
+    height: 6.5%;   
 }
