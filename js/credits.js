@@ -262,6 +262,16 @@ const portraits = /*html*/`
     <p class="portrait-line">Voice Actor of Linda.</p>
 </div>
 
+<div class="portrait-container">
+    <img class="portrait" src="assets/images/portraits/credits0021.png" alt="Portrait">
+    <h1 class="portrait-title">Szarlotka</h1>
+    <div class="socials-container-portrait">
+        <a class="social-button" href="https://www.youtube.com/channel/UC_8OlMZUU7mAH04_wzXheYw">
+            <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
+        </a>
+    </div>
+    <p class="portrait-line">Animator, Artist.</p>
+</div>
 
 
 <div id="kev-container">

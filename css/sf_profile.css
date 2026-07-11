@@ -15,7 +15,24 @@ body {
 .character-image {
     width: 25vw;
     align-self: flex-end;
-    margin-bottom: 5%;
+    margin-bottom: 8vh;
+}
+
+#alek-character, #qd-character { 
+    width: 27vw;
+}
+
+#squiddo-character, #doggie-character {
+    width: 28vw;
+}
+
+
+#jake-character, #emily-character, #mike-character {
+    width: 30vw;
+}
+
+#alyson-character {
+    width: 32vw;
 }
 
 .right-container {
@@ -24,4 +41,32 @@ body {
 
 .back-button {
     z-index: 3;
+}
+
+.fun-fact-button {
+    background-image: url("../assets/images/navigation/info-icon.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    position: fixed;
+    bottom: -2.5%;
+    left: 5%;
+    aspect-ratio: 1/1;
+    width: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 1.75vw;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 3;
+    transition: all 1s ease-in-out;
+}
+
+.fun-fact-button.active {
+    background-image: none;
+    width: 27.5%;
+    left: 30%;
+    background-color: rgba(0, 0, 0, 0.75);
 }

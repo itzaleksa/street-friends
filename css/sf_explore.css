@@ -43,6 +43,24 @@ body {
     pointer-events: none;
 }
 
+.candy-store-tooltip {
+    aspect-ratio: auto;
+    width: 75%;
+    transform: translate(-64%, -51%);
+}
+
+.qd-house-tooltip {
+    aspect-ratio: auto;
+    width: 50%;
+    transform: translate(-64%, -51%);
+}
+
+.alek-house-tooltip {
+    aspect-ratio: auto;
+    width: 50%;
+    transform: translate(-64%, -51%);
+}
+
 
 #home-button {
     position: fixed;
@@ -84,6 +102,7 @@ body {
 }
 
 #hospital-interactable {
+    display: none;
     top: 68%;
     left: 56.9%;
     width: 4.75%;
@@ -98,8 +117,32 @@ body {
 }
 
 #mall-interactable {
+    display: none;
     top: 70.5%;
     left: 83.5%;
     width: 7.5%;
     height: 6.5%;   
+}
+
+#playground-interactable {
+    top: 27%;
+    left: 59.8%;
+    width: 5.75%;
+    height: 10%;
+}
+
+#alek-qd-house-interactable {
+    display: none;
+    top: 18.25%;
+    left: 61.15%;
+    width: 1.5%;
+    height: 2.5%;
+}
+
+#squiddo-doggie-house-interactable {
+    /* display: none; */
+    top: 18.25%;
+    left: 62.9%;
+    width: 1.55%;
+    height: 2.5%;
 }

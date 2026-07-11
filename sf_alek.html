@@ -12,14 +12,17 @@
         <!-- JS -->
         <script src="js/cash.min.js"></script>
         <script src="js/main_elements_sf.js"></script>
+        <script src="js/sf_profile.js"></script>
     </head>
     <!-- Note: Added a style override -->
     <!-- html-validate-disable-next no-inline-style -->
-    <body style="gap: 13vw;">
+    <body style="gap: 12vw;">
         <img class="bg-image" src="assets/images/backgrounds/purple_alek_doodle.png" alt="Background Image">
         <button onclick="window.location.href='sf_about.html'" type="button" class="back-button">Back</button>
+        <!-- html-validate-disable-next text-content -->
+        <button data-fun="alek" type="button" class="fun-fact-button"></button>
         <img class="spotlight-overlay" src="assets/images/overlays/overlay-characters.png" alt="">
-        <img class="character-image" src="assets/images/sf-pictures/alek_render.png" alt="Alek">
+        <img id="alek-character" class="character-image" src="assets/images/sf-pictures/alek_render.png" alt="Alek">
         <div class="right-container">
             <p class="title">NAME: Alek</p>
             <p class="title">AGE: 14</p>

@@ -44,11 +44,11 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    gap: 0.5vw;
 }
 
 .picture {
     width: 20%;
-    margin: 0.5vw;
     cursor: pointer;
 }
 

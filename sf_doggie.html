@@ -12,12 +12,16 @@
         <!-- JS -->
         <script src="js/cash.min.js"></script>
         <script src="js/main_elements_sf.js"></script>
+        <script src="js/sf_profile.js"></script>
     </head>
-    <body>
+    <!-- html-validate-disable-next no-inline-style -->
+    <body style="gap: 15vw;">
         <img class="bg-image" src="assets/images/backgrounds/doggie-doodle-bg.png" alt="Background Image">
         <button onclick="window.location.href='sf_about.html'" type="button" class="back-button">Back</button>
+        <!-- html-validate-disable-next text-content -->
+        <button data-fun="doggie" type="button" class="fun-fact-button"></button>
         <img class="spotlight-overlay" src="assets/images/overlays/overlay-characters.png" alt="">
-        <img class="character-image" src="assets/images/sf-pictures/doggie-render.png" alt="Doggie">
+        <img id="doggie-character" class="character-image" src="assets/images/sf-pictures/doggie-render.png" alt="Doggie">
         <div class="right-container">
             <p class="title">NAME: Doggie</p>
             <p class="title">AGE: 14</p>
