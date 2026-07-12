@@ -39,13 +39,13 @@ $(function() {
         },
         "squiddo-doggie-house": () => {
             console.log("squiddo & doggie house");
-            $tooltip.attr("src", "assets/images/placeholder.jpg");
-            // $tooltip.addClass("candy-store-tooltip");
+            $tooltip.attr("src", "assets/images/tooltips/doggie-squiddo-home.gif");
+            $tooltip.addClass("squiddo-doggie-house-tooltip");
         },
         "alek-qd-house": () => {
             console.log("alek & qd house");
-            $tooltip.attr("src", "assets/images/placeholder.jpg");
-            // $tooltip.addClass("candy-store-tooltip");
+            $tooltip.attr("src", "assets/images/tooltips/alek-qd-house.gif");
+            $tooltip.addClass("alek-qd-house-tooltip");
         },
     };
 

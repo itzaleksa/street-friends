@@ -49,16 +49,16 @@ body {
     transform: translate(-64%, -51%);
 }
 
-.qd-house-tooltip {
+.alek-qd-house-tooltip {
     aspect-ratio: auto;
-    width: 50%;
-    transform: translate(-64%, -51%);
+    width: 35%;
+    transform: translate(-31%, -18%);
 }
 
-.alek-house-tooltip {
+.squiddo-doggie-house-tooltip {
     aspect-ratio: auto;
-    width: 50%;
-    transform: translate(-64%, -51%);
+    width: 35%;
+    transform: translate(-69%, -15%);
 }
 
 
