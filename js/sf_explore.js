@@ -14,8 +14,8 @@ $(function() {
         },
         "campfire": () => {
             console.log("campfire");
-            $tooltip.attr("src", "assets/images/placeholder.jpg");
-            // $tooltip.addClass("candy-store-tooltip");
+            $tooltip.attr("src", "assets/images/tooltips/bategen-campsite.gif");
+            $tooltip.addClass("campfire-tooltip");
         },
         "hospital": () => {
             console.log("hospital");
@@ -24,13 +24,13 @@ $(function() {
         },
         "gated-playground": () => {
             console.log("gated playground");
-            $tooltip.attr("src", "assets/images/placeholder.jpg");
-            // $tooltip.addClass("candy-store-tooltip");
+            $tooltip.attr("src", "assets/images/tooltips/bategen-local-park.gif");
+            $tooltip.addClass("gated-playground-tooltip");
         },
         "playground": () => {
             console.log("playground");
-            $tooltip.attr("src", "assets/images/placeholder.jpg");
-            // $tooltip.addClass("candy-store-tooltip");
+            $tooltip.attr("src", "assets/images/tooltips/bategen-local-park2.gif");
+            $tooltip.addClass("playground-tooltip");
         },
         "mall": () => {
             console.log("mall");

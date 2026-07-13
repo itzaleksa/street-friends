@@ -46,7 +46,25 @@ body {
 .candy-store-tooltip {
     aspect-ratio: auto;
     width: 75%;
-    transform: translate(-64%, -51%);
+    transform: translate(-64%, -53%);
+}
+
+.gated-playground-tooltip {
+    aspect-ratio: auto;
+    width: 40%;
+    transform: translate(-84%, -47%);
+}
+
+.playground-tooltip {
+    aspect-ratio: auto;
+    width: 40%;
+    transform: translate(-82%, -46%);
+}
+
+.campfire-tooltip {
+    aspect-ratio: auto;
+    width: 40%;
+    transform: translate(-18%, -73%);
 }
 
 .alek-qd-house-tooltip {
