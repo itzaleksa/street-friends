@@ -6,11 +6,15 @@
 .middle-container {
     justify-content: space-between;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.6);
 }
 
 .logo {
     aspect-ratio: 5/4;
+}
+
+.title {
+    margin: 1vh 0;
 }
 
 .description {
@@ -70,7 +74,7 @@
     justify-content: center;
     align-items: flex-end;
     flex-grow: 1;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
@@ -90,11 +94,11 @@
         height: 100dvh;
     }
     .nav-container {
-        width: 75%;
+        width: 100%;
         margin: 1vh 0%;
     }
     .nav-button {
-        width: 20vw;
+        width: 20vh;
     }
     .middle-container {
         width: 100vw;
@@ -107,12 +111,12 @@
         font-size: 2vh;
     }
     .separator {
-        height: 5px;
+        width: 90%;
     }
     .chibi {
-        height: 18vw;
+        height: 14vw;
     }
     #home-image {
-        height: 18vw;
+        height: 100%;
     }
 }

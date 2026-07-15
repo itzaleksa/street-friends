@@ -13,26 +13,35 @@ body {
 }
 
 .character-image {
+    position: absolute;
+    left: 17vw;
     width: 25vw;
     align-self: flex-end;
     margin-bottom: 8vh;
 }
 
 #alek-character, #qd-character { 
-    width: 27vw;
+    width: 25vw;
 }
 
-#squiddo-character, #doggie-character {
+#squiddo-character {
+    left: 15vw;
     width: 28vw;
+}
+
+#doggie-character {
+    left: 14vw;
 }
 
 
 #jake-character, #emily-character, #mike-character {
-    width: 30vw;
+    left: 16vw;
+    width: 28vw;
 }
 
 #alyson-character {
-    width: 32vw;
+    width: 30vw;
+    left: 15vw;
 }
 
 .right-container {
@@ -49,11 +58,10 @@ body {
     background-position: 50% 50%;
     background-size: contain;
     position: fixed;
-    bottom: -2.5%;
-    left: 5%;
+    bottom: 2.5vh;
+    left: 2.5vw;
     aspect-ratio: 1/1;
-    width: 5%;
-    transform: translate(-50%, -50%);
+    width: 7.5vh;
     font-size: 1.75vw;
     background-color: rgba(0, 0, 0, 0.0);
     color: white;
@@ -68,5 +76,48 @@ body {
     background-image: none;
     width: 27.5%;
     left: 30%;
+    transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 1080px) {
+    html {
+        height: 100dvh;
+    }
+
+    .title {
+        font-size: 4vw;
+    }
+    .description-big {
+        font-size: 2.5vw;
+    }
+
+    .spotlight-overlay {
+        position: absolute;
+        left: -5vw;
+        width: 125vh;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    #alek-character, #qd-character {
+        width: 37vh;
+    }
+
+    #squiddo-character, #doggie-character {
+        width: 28vw;
+    }
+
+
+    #jake-character, #emily-character, #mike-character {
+        width: 30vw;
+    }
+
+    #alyson-character {
+        width: 32vw;
+    }
+
+    .right-container {
+        z-index: 2;
+    }
 }
