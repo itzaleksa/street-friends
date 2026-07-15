@@ -73,18 +73,18 @@
         height: 100dvh;
     }
     .nav-container {
-        width: 75%;
+        width: 100%;
         margin: 1vh 0%;
     }
     .nav-button {
-        width: 20vw;
+        width: 20vh;
     }
     .middle-container {
         width: 100vw;
         height: 100dvh;
     }
     .title {
-        font-size: 3vh;
+        font-size: 4vh;
     }
     .description {
         font-size: 1.5vh;

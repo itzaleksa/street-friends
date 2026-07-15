@@ -66,3 +66,26 @@ body {
 .disc:hover {
     cursor: grab;
 }
+
+@media (max-width: 1080px) {
+    html {
+        height: 100dvh;
+    }
+    .nav-container {
+        width: 100%;
+        margin: 1vh 0%;
+    }
+    .nav-button {
+        width: 20vh;
+    }
+    .middle-container {
+        width: 100vw;
+        background-color: rgba(0,0,0,0.75);
+    }
+    .title {
+        font-size: 4vh;
+    }
+    .description {
+        font-size: 1.5vh;
+    }
+}
