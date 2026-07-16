@@ -56,7 +56,7 @@ const portraits = /*html*/`
         </a>
     </div>
     <p class="portrait-line"><b>"It's a Mystery what she's planning!"</b></p>
-    <p class="portrait-line">Site Coder, Musician, Game Developer, Voice Actor of Anxiety. </p>
+    <p class="portrait-line">Site Coder, Musician, Game Developer, Voice Actor of Anxiety.</p>
 </div>
 
 
@@ -271,6 +271,17 @@ const portraits = /*html*/`
         </a>
     </div>
     <p class="portrait-line">Animator, Artist.</p>
+</div>
+
+<div class="portrait-container">
+    <img class="portrait" src="assets/images/portraits/credits0022.png" alt="Portrait">
+    <h1 class="portrait-title">Vik</h1>
+    <div class="socials-container-portrait">
+        <a class="social-button" href="https://www.youtube.com/@VIKTRzzz">
+            <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
+        </a>
+    </div>
+    <p class="portrait-line">Artist, Designer, Concept Artist</p>
 </div>
 
 
