@@ -218,16 +218,9 @@ const portraits = /*html*/`
 
 
 <div class="portrait-container">
-    <img class="portrait" src="assets/images/portraits/credits0007.png" alt="Portrait">
-    <h1 class="portrait-title">Judi</h1>
-    <div class="socials-container-portrait">
-        <a class="social-button" href="https://www.youtube.com/channel/UCYbocNhRZcXbv7mSnLneEVw">
-            <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
-        </a>
-        <a class="social-button" href="https://x.com/JudithBakery">
-            <img class="social-icon" src="assets/images/socials/twitter.png" alt="Twitter">
-        </a>
-    </div>
+    <img class="portrait" src="assets/images/portraits/placeholder_portrait.png" alt="Portrait">
+    <h1 class="portrait-title">???</h1>
+    <p class="portrait-line">Kept anonymous for personal reasons</p>
     <p class="portrait-line">Voice Actor of Emily, Clawdy, Ice Cream and Lady, Karen.</p>
 </div>
 
