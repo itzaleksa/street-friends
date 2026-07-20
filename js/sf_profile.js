@@ -4,7 +4,7 @@ var dice = null
 $(function() {
     const fun_facts = {
         "alek": () => {
-            const fun_fact = ["Alek has a big headphone dent, And he's very insecure about it.", "Alek is an ambivert.", "Alek's eyes are red when hes anxious.", "Alek shares pants and shoes with QD", "Alek loves spaghetti.", "He is afraid of lakes."];
+            const fun_fact = ["Alek has a big headphone dent, And he's very insecure about it.", "Alek is an ambivert.", "Alek's eyes are red when hes anxious.", "Alek shares pants and shoes with QD", "Alek loves spaghetti.", "He is afraid of lakes.", "Alek prefers winter so he can drink hot chocolate everyday and stay indoors."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("dice: ", dice)
             $(".fun-fact-button").text(fun_fact[dice]);
