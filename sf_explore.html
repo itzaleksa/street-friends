@@ -14,7 +14,6 @@
         <script src="js/sf_explore.js"></script>
     </head>
     <body>
-        <button onclick="window.location.href='sf_about.html'" type="button" class="back-button">Back</button>
         <img class="bg-image" src="assets/images/backgrounds/explorer_render.png" alt="Something went wrong loading the explorer map!">
         <div class="interactable-container">
             <div data-hover="larg" id="larg-interactable" class="interactable"></div>
@@ -29,8 +28,6 @@
             <div data-hover="alek-qd-house" id="alek-qd-house-interactable" class="interactable"></div>
         </div>
         <img class="tooltip" src="assets/images/placeholder.jpg" alt="placeholder">
-        <a id="home-button" href="sf_about.html">
-            <img id="home-image" class="nav-icon" src="assets/images/navigation/home-button.png" alt="Home">
-        </a>
+        <img onclick="window.location.href='sf_about.html'" id="home-image" class="nav-icon" src="assets/images/navigation/home-button.png" alt="Home">
     </body>
 </html>

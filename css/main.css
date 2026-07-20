@@ -149,7 +149,7 @@ body {
     width: 100%;
 }
 
-/* Back Button */
+/* Back Buttons */
 
 .back-button {
     position: fixed;
@@ -162,6 +162,14 @@ body {
     color: white;
     border: 0;
     border-radius: 25px;
+    cursor: pointer;
+}
+
+#home-image {
+    aspect-ratio: 1/1;
+    width: 64px;
+    height: 64px;
+    /* flex-grow: 1; */
     cursor: pointer;
 }
 

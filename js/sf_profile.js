@@ -4,25 +4,25 @@ var dice = null
 $(function() {
     const fun_facts = {
         "alek": () => {
-            const fun_fact = ["Alek has a big headphone dent, And he's very insecure about it.", "Alek is an ambivert.", "Alek's eyes are red when hes anxious.", "Alek shares pants and shoes with QD", "Alek loves spaghetti.", "He is afraid of lakes.", "Alek prefers winter so he can drink hot chocolate everyday and stay indoors.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)"];
+            const fun_fact = ["Alek has a big headphone dent, And he's very insecure about it.", "Alek is an ambivert.", "Alek's eyes are red when hes anxious.", "Alek shares pants and shoes with QD", "Alek loves spaghetti.", "He is afraid of lakes.", "Alek prefers winter so he can drink hot chocolate everyday and stay indoors.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)", "Alek is a sleep talker, It scares QD because everytime he sleep talks, he talks in a language nobody has ever of. Not even Alek knows what hes saying.", "Alek never takes an umbrella when it’s raining. He loves to feel the rain on his skin.", "Alek likes to take photos of everything he finds interesting because of his short memory. This way he can remember it."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Alek Fun Facts Count: ", fun_fact.length)
             $(".fun-fact-button").text(fun_fact[dice]);
         },
         "qd": () => {
-            const fun_fact = ["QD shares pants and shoes with Alek", "QD really likes gummy bears.", "His favorite cartoon character is Rags Rabbit.", "QD is learning karate.", "He is fast as a bunny. (thus, nickname: Bunny Boy)", "QD can't stand bullies.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)"];
+            const fun_fact = ["QD shares pants and shoes with Alek", "QD really likes gummy bears.", "His favorite cartoon character is Rags Rabbit.", "QD is learning karate.", "He is fast as a bunny. (thus, nickname: Bunny Boy)", "QD can't stand bullies.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)", "Qd And Doggie argue most of the time as they can't get along. They however try their best for Alek."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("QD Fun Facts Count: ", fun_fact.length)
             $(".fun-fact-button").text(fun_fact[dice]);
         },
         "squiddo": () => {
-            const fun_fact = ["Squiddo's favorite dish is carbonara pasta.", "Plays football", "Squiddo hates peanut butter", "Squiddo is aromantic.", "Squiddo is very smart.", "Squiddo is really into board games."];
+            const fun_fact = ["Squiddo's favorite dish is carbonara pasta.", "Plays football", "Squiddo hates peanut butter", "Squiddo is aromantic.", "Squiddo is very smart.", "Squiddo is really into board games.", "Squiddo keeps a secret coin collection, Not even Doggie knows about it."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Squiddo Fun Facts Count: ", fun_fact.length)
             $(".fun-fact-button").text(fun_fact[dice]);
         },
         "doggie": () => {
-            const fun_fact = ["Doggie likes peanut butter.", "Doggie brushes her hair 57 times a day.", "Doggie likes to chew things for focus.", "Doggie plays volleyball.", "She has a double life, One with the main cast, the other one with Emily and Alyson.", "She likes reading, especially Mystery Novels.", "Doggie prefers winter so she can wear those sweaters with the cute paw prints on the sleeves", "Doggie collects Brokemon cards but doesn't know the value of each card she gets, she just keeps the ones she likes", "Doggie will eat anything on pizza, even pineapple.", "Doggie Isn't allowed to drink coffee / energy drinks (she's already energetic enough)", "She would go to the local amusement just to take pictures with the princesses and dress up as one."];
+            const fun_fact = ["Doggie likes peanut butter.", "Doggie brushes her hair 57 times a day.", "Doggie likes to chew things for focus.", "Doggie plays volleyball.", "She has a double life, One with the main cast, the other one with Emily and Alyson.", "She likes reading, especially Mystery Novels.", "Doggie prefers winter so she can wear those sweaters with the cute paw prints on the sleeves", "Doggie collects Brokemon cards but doesn't know the value of each card she gets, she just keeps the ones she likes", "Doggie will eat anything on pizza, even pineapple.", "Doggie Isn't allowed to drink coffee / energy drinks (she's already energetic enough)", "She would go to the local amusement just to take pictures with the princesses and dress up as one.", "Qd And Doggie argue most of the time as they can't get along. They however try their best for Alek."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Doggie Fun Facts Count: ", fun_fact.length)
             $(".fun-fact-button").text(fun_fact[dice]);
