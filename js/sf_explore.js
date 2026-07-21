@@ -47,6 +47,11 @@ $(function() {
             $tooltip.attr("src", "assets/images/tooltips/alek-qd-house.gif");
             $tooltip.addClass("alek-qd-house-tooltip");
         },
+        "abandoned": () => {
+            console.log("abandoned");
+            $tooltip.removeAttr("src");
+            $tooltip.addClass("abandoned-tooltip");
+        }
     };
 
     $(".interactable").on({

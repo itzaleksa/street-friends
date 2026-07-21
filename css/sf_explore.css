@@ -44,6 +44,11 @@ body {
     pointer-events: none;
 }
 
+.abandoned-tooltip {
+    display: none;
+    width: 0%;
+}
+
 .candy-store-tooltip {
     aspect-ratio: auto;
     width: 75%;
@@ -92,12 +97,12 @@ body {
 
 
 #abandoned-interactable {
-    display: none;
     top: 21.25%;
     left: 14.5%;
     width: 2%;
     height: 2.25%;
     rotate: 15deg;
+    cursor: pointer;
 }
 
 #larg-interactable {
