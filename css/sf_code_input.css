@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5%;
+}
+
+#code-input {
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 16px;
+    width: 10%;
+    height: 5%;
+}
+
+#code-input:focus {
+    outline: none;
+}
+
+#submit-button {
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 16px;
+    width: 7.5%;
+    height: 7.5%;
+    font-size: larger;
+    cursor: pointer;
+}

@@ -1,4 +1,5 @@
-body {
+.totally-body {
+    display: flex;
     height: 100vh;
     flex-direction: row;
     justify-content: flex-end;
@@ -65,9 +66,9 @@ body {
     font-size: 1.75vw;
     background-color: rgba(0, 0, 0, 0.0);
     color: white;
-    border: 0;
-    border-radius: 25px;
+    border: none;
     cursor: pointer;
+    border-radius: 25px;
     z-index: 3;
     transition: all 1s ease-in-out;
 }
@@ -78,6 +79,18 @@ body {
     left: 30%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.75);
+}
+
+.lake-button {
+    aspect-ratio: 1/1;
+    position: fixed;
+    width: 2.5%;
+    bottom: 0%;
+    left: 50%;
+    border: none;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 3;
 }
 
 @media (max-width: 1080px) {
@@ -107,7 +120,6 @@ body {
     #squiddo-character, #doggie-character {
         width: 28vw;
     }
-
 
     #jake-character, #emily-character, #mike-character {
         width: 30vw;

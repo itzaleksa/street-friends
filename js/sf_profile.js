@@ -4,10 +4,17 @@ var dice = null
 $(function() {
     const fun_facts = {
         "alek": () => {
-            const fun_fact = ["Alek has a big headphone dent, And he's very insecure about it.", "Alek is an ambivert.", "Alek's eyes are red when hes anxious.", "Alek shares pants and shoes with QD", "Alek loves spaghetti.", "He is afraid of lakes.", "Alek prefers winter so he can drink hot chocolate everyday and stay indoors.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)", "Alek is a sleep talker, It scares QD because everytime he sleep talks, he talks in a language nobody has ever of. Not even Alek knows what hes saying.", "Alek never takes an umbrella when it’s raining. He loves to feel the rain on his skin.", "Alek likes to take photos of everything he finds interesting because of his short memory. This way he can remember it.", "Alek has a secret crush.", "Alek's favorite animal is a cat.", "Alek's favorite flower is a Violet.", "Alek's favorite food taste is Sourness."];
+            const fun_fact = ["He is afraid of lakes.", "Alek has a big headphone dent, And he's very insecure about it.", "Alek is an ambivert.", "Alek's eyes are red when hes anxious.", "Alek shares pants and shoes with QD", "Alek loves spaghetti.", "He is afraid of lakes.", "Alek prefers winter so he can drink hot chocolate everyday and stay indoors.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)", "Alek is a sleep talker, It scares QD because everytime he sleep talks, he talks in a language nobody has ever of. Not even Alek knows what hes saying.", "Alek never takes an umbrella when it’s raining. He loves to feel the rain on his skin.", "Alek likes to take photos of everything he finds interesting because of his short memory. This way he can remember it.", "Alek has a secret crush.", "Alek's favorite animal is a cat.", "Alek's favorite flower is a Violet.", "Alek's favorite food taste is Sourness."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Alek Fun Facts Count: ", fun_fact.length)
-            $(".fun-fact-button").text(fun_fact[dice]);
+            const fact = fun_fact[dice]
+            if (fact == "He is afraid of lakes.") {
+                $(".lake-button").removeClass("hidden");
+            }
+            else {
+                $(".lake-button").addClass("hidden");
+            }
+            $(".fun-fact-button").text(fact);
         },
         "qd": () => {
             const fun_fact = ["QD shares pants and shoes with Alek", "QD really likes gummy bears.", "His favorite cartoon character is Rags Rabbit.", "QD is learning karate.", "He is fast as a bunny. (thus, nickname: Bunny Boy)", "QD can't stand bullies.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)", "Qd And Doggie argue most of the time as they can't get along. They however try their best for Alek.", "QD's favorite animal is a bunny.", "QD's favorite flower is a Marigold.", "Qd's favorite food taste is Sweetness.", "QD's favorite sport is football."];
@@ -28,10 +35,18 @@ $(function() {
             $(".fun-fact-button").text(fun_fact[dice]);
         },
         "jake": () => {
-            const fun_fact = ["Jake is a secret pop listener.", "He is afraid of lakes.", "Jake watches short bully videos to make himself look cooler.", "As popular Jake is, his only true friends are Mike, Alyson and his girlfriend Emily.", "Jake is envy of Alek's talent.", "Jake is afraid of reaching out.", "Jake has 'bindr' on his phone", "Jake's favorite animal is a wolf.", "Jake's favorite flower is a Amaryllis.", "Jake's favorite food taste is Bitterness.", "Jake's favorite sport is football."];
+            // const fun_fact = ["He is afraid of lakes.", "Jake is a secret pop listener.", "Jake watches short bully videos to make himself look cooler.", "As popular Jake is, his only true friends are Mike, Alyson and his girlfriend Emily.", "Jake is envy of Alek's talent.", "Jake is afraid of reaching out.", "Jake has 'bindr' on his phone", "Jake's favorite animal is a wolf.", "Jake's favorite flower is a Amaryllis.", "Jake's favorite food taste is Bitterness.", "Jake's favorite sport is football."];
+            const fun_fact = ["He is afraid of lakes."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Jake Fun Facts Count: ", fun_fact.length)
-            $(".fun-fact-button").text(fun_fact[dice]);
+            const fact = fun_fact[dice]
+            if (fact == "He is afraid of lakes.") {
+                $(".lake-button").removeClass("hidden");
+            }
+            else {
+                $(".lake-button").addClass("hidden");
+            }
+            $(".fun-fact-button").text(fact);
         },
         "emily": () => {
             const fun_fact = ["She never actually wears her star glasses and ONLY uses it for her outfit.", "She has a pair of reading glasses but only wears them in private.", "Shes very very VERY scared of rats.", "Emily is volleyball captain of The Panthers team.", "Emily has a young brother named Andrew.", "Emily is afraid of people judging her.", "Emily used to be a demigirl, later on she became more feminine to fit in.", "Emily thinks listening to Lada rel May makes her coquette", "Emily's favorite animal is a fox.", "Emily's favorite flower is a Peony.", "Emily's favorite food taste is Sweetness.", "Emily's favorite sport is volleyball."];
