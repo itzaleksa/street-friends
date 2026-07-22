@@ -32,7 +32,7 @@ body {
     width: 2.5%;
     margin: 0;
     /* Comment background-color later */
-    background-color: rgba(255, 0, 255, 0.5);
+    /* background-color: rgba(255, 0, 255, 0.5); */
 }
 
 .tooltip {

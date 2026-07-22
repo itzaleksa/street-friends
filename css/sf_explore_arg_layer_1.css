@@ -1,7 +1,78 @@
-.interactable-container {
-    position: relative;
+html, body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-image {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
     aspect-ratio: 16 / 9;
+    width: 80%;
+    object-fit: contain;
+}
+
+.image-container {
+    position: relative;
+    aspect-ratio: 16/9;
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+.interactable {
+    position: absolute;
+    width: 5%;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 0, 230, 0.25);
+}
+
+.paper-full {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1/1;
+    top: 50%;
+    left: 50%;
+    height: 50vh;
+}
+
+#paper-1 {
+	width: 1.5%;
+	top: 70%;
+	left: 75%;
+}
+
+#clickable-1 {
+	width: 3%;
+	height: 9%;
+	top: 58%;
+	left: 48.75%;
+}
+
+#paper-2 {
+	width: 3%;
+	top: 81.5%;
+	left: 19%;
+}
+
+#clickable-2 {
+	width: 9%;
+	height: 12%;
+	top: 10%;
+	left: 53%;
+}
+
+#clickable-outside {
+	width: 15.5%;
+	height: 42%;
+	top: 37%;
+	left: 69%;
+}
+
+#paper-3 {
+	width: 1.5%;
+	top: 74%;
+	left: 76%;
 }
