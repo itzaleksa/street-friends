@@ -3,14 +3,15 @@ var paper_debounce = false
 $(function() {
     $("#paper-1").on("click", function() {
         if (paper_debounce == true) {
-            console.log("paper debounce!!")
-            return
+            console.log("paper debounce!!");
+            return;
         };
-        paper_debounce = true
+        paper_debounce = true;
+        $("#paper-audio")[0].play();
         $("#paper-full-1").removeClass("hidden");
         setTimeout(() => {
             $("#paper-full-1").addClass("hidden");
-            paper_debounce = false
+            paper_debounce = false;
         }, 3000);
     });
     $("#clickable-1").on("click", function() {
@@ -26,14 +27,15 @@ $(function() {
     });
     $("#paper-2").on("click", function() {
         if (paper_debounce == true) {
-            console.log("paper debounce!!")
+            console.log("paper debounce!!");
             return
         };
-        paper_debounce = true
+        paper_debounce = true;
+        $("#paper-audio")[0].play();
         $("#paper-full-2").removeClass("hidden");
         setTimeout(() => {
             $("#paper-full-2").addClass("hidden");
-            paper_debounce = false
+            paper_debounce = false;
         }, 3000);
     });
     $("#clickable-outside").on("click", function() {
@@ -59,14 +61,15 @@ $(function() {
     });
     $("#paper-3").on("click", function() {
         if (paper_debounce == true) {
-            console.log("paper debounce!!")
+            console.log("paper debounce!!");
             return
         };
-        paper_debounce = true
+        paper_debounce = true;
+        $("#paper-audio")[0].play();
         $("#paper-full-3").removeClass("hidden");
         setTimeout(() => {
             $("#paper-full-3").addClass("hidden");
-            paper_debounce = false
+            paper_debounce = false;
         }, 3000);
     });
 });

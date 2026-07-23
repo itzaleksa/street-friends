@@ -218,9 +218,8 @@ const portraits = /*html*/`
 
 
 <div class="portrait-container">
-    <img class="portrait" src="assets/images/portraits/placeholder_portrait.png" alt="Portrait">
-    <h1 class="portrait-title">???</h1>
-    <p class="portrait-line">Kept anonymous for personal reasons</p>
+    <img class="portrait" src="assets/images/portraits/credits0007.png" alt="Portrait">
+    <h1 class="portrait-title">Judi</h1>
     <p class="portrait-line">Voice Actor of Emily, Clawdy, Ice Cream and Lady, Karen.</p>
 </div>
 

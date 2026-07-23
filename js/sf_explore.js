@@ -4,8 +4,8 @@ $(function() {
     const hovers = {
         "larg": () => {
             console.log("larg");
-            // $tooltip.addClass("candy-store-tooltip");
-            $tooltip.attr("src", "assets/images/placeholder.jpg");
+            $tooltip.attr("src", "assets/images/tooltips/larg.gif");
+            $tooltip.addClass("larg-tooltip");
         },
         "candy-store": () => {
             console.log("candy store");

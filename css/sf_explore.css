@@ -44,6 +44,12 @@ body {
     pointer-events: none;
 }
 
+.larg-tooltip {
+    aspect-ratio: auto;
+    width: 40%;
+    transform: translate(-94%, -44.5%);
+}
+
 .abandoned-tooltip {
     display: none;
     width: 0%;
