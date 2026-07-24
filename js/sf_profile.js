@@ -4,10 +4,10 @@ var dice = null
 $(function() {
     const fun_facts = {
         "alek": () => {
-            const fun_fact = ["He is afraid of lakes.", "Alek has a big headphone dent, And he's very insecure about it.", "Alek is an ambivert.", "Alek's eyes are red when hes anxious.", "Alek shares pants and shoes with QD", "Alek loves spaghetti.", "He is afraid of lakes.", "Alek prefers winter so he can drink hot chocolate everyday and stay indoors.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)", "Alek is a sleep talker, It scares QD because everytime he sleep talks, he talks in a language nobody has ever of. Not even Alek knows what hes saying.", "Alek never takes an umbrella when it’s raining. He loves to feel the rain on his skin.", "Alek likes to take photos of everything he finds interesting because of his short memory. This way he can remember it.", "Alek has a secret crush.", "Alek's favorite animal is a cat.", "Alek's favorite flower is a Violet.", "Alek's favorite food taste is Sourness."];
+            const fun_fact = ["He is afraid of lakes.", "Alek has a big headphone dent, And he's very insecure about it.", "Alek is an ambivert.", "Alek's eyes are red when hes anxious.", "Alek shares pants and shoes with QD", "Alek loves spaghetti.", "He is afraid of lakes.", "Alek prefers winter so he can drink hot chocolate everyday and stay indoors.", "Alek and Qd tend to secretly role-play. (You don’t need to know what…)", "Alek is a sleep talker, It scares QD because everytime he sleep talks, he talks in a language nobody has ever heard of. Not even Alek knows what hes saying.", "Alek never takes an umbrella when it’s raining. He loves to feel the rain on his skin.", "Alek likes to take photos of everything he finds interesting because of his short memory. This way he can remember it.", "Alek has a secret crush.", "Alek's favorite animal is a cat.", "Alek's favorite flower is a Violet.", "Alek's favorite food taste is Sourness."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Alek Fun Facts Count: ", fun_fact.length)
-            const fact = fun_fact[dice]
+            var fact = fun_fact[dice]
             if (fact == "He is afraid of lakes.") {
                 $(".lake-button").removeClass("hidden");
             }
@@ -39,7 +39,7 @@ $(function() {
             const fun_fact = ["He is afraid of lakes."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Jake Fun Facts Count: ", fun_fact.length)
-            const fact = fun_fact[dice]
+            var fact = fun_fact[dice]
             if (fact == "He is afraid of lakes.") {
                 $(".lake-button").removeClass("hidden");
             }

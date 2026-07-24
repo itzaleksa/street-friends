@@ -21,10 +21,11 @@ function onDrop($el) {
         $("#tv").addClass("tv-fullscreen");
         $("#screen").addClass("tv-fullscreen");
         $("#bootup-video").addClass("tv-fullscreen");
+        console.log("bootup video!");
         switch (disc_data) {
             case "street-friends":
                 console.log("Street Friends Data Found!");
-                target_page = "sf_home.html"
+                target_page = "sf_home.html";
                 break;
             default:
                 console.log("Data found but not listed!");
