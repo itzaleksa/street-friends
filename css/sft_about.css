@@ -9,12 +9,13 @@ body {
 
 .middle-container {
     height: 100vh;
+    justify-content: space-around;
 }
 
 #alek-splash {
     display: flex;
     aspect-ratio: 1 / 1;
-    height: 30vh;
+    height: 25dvh;
     object-fit: contain;
 }
 
