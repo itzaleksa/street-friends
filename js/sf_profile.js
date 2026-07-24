@@ -36,7 +36,6 @@ $(function() {
         },
         "jake": () => {
             const fun_fact = ["He is afraid of lakes.", "Jake is a secret pop listener.", "Jake watches short bully videos to make himself look cooler.", "As popular Jake is, his only true friends are Mike, Alyson and his girlfriend Emily.", "Jake is envy of Alek's talent.", "Jake is afraid of reaching out.", "Jake has 'bindr' on his phone", "Jake's favorite animal is a wolf.", "Jake's favorite flower is a Amaryllis.", "Jake's favorite food taste is Bitterness.", "Jake's favorite sport is football."];
-            // const fun_fact = ["He is afraid of lakes."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Jake Fun Facts Count: ", fun_fact.length)
             var fact = fun_fact[dice]
