@@ -10,10 +10,13 @@ body {
 #code-input {
     background-color: black;
     color: white;
-    border: 5px solid white;
-    border-radius: 16px;
-    width: 10%;
-    height: 5%;
+    border: 3px solid white;
+    width: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    height: 2.5%;
+    padding: 8px;
+    text-align: center;
 }
 
 #code-input:focus {
@@ -23,10 +26,14 @@ body {
 #submit-button {
     background-color: black;
     color: white;
-    border: 5px solid white;
-    border-radius: 16px;
-    width: 7.5%;
-    height: 7.5%;
-    font-size: larger;
+    border: 3px solid white;
+    width: 7%;
+    height: 7%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
     cursor: pointer;
+}
+
+#soon {
+    aspect-ratio: 16/4;
 }

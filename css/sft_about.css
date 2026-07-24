@@ -7,10 +7,14 @@ body {
     height: 100vh;
 }
 
+.middle-container {
+    height: 100vh;
+}
+
 #alek-splash {
     display: flex;
     aspect-ratio: 1 / 1;
-    height: 40%;
+    height: 30vh;
     object-fit: contain;
 }
 

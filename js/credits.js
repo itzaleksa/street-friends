@@ -220,7 +220,7 @@ const portraits = /*html*/`
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0007.png" alt="Portrait">
     <h1 class="portrait-title">Judi</h1>
-    <p class="portrait-line">Voice Actor of Emily, Clawdy, Ice Cream and Lady, Karen.</p>
+    <p class="portrait-line">Voice Actor of Emily, Clawdy, Ruddie and Ms. Karenson.</p>
 </div>
 
 
