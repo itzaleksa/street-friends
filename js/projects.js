@@ -35,7 +35,7 @@ function onDrop($el) {
             $("#screen").addClass("hidden");
             $("#bootup-video").removeClass("hidden");
             $("#bootup-video")[0].currentTime = 0;
-            $("#bootup-video")[0].play()
+            $("#bootup-video")[0].play().catch(err => console.error("video failed:", err));
             setTimeout(() => {
                 $("#screen").addClass("hidden");
                 window.location.href = "sf_about.html"
