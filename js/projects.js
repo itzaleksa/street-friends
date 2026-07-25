@@ -15,7 +15,7 @@ function onDrop($el) {
     const disc_data = $el.data("disc");
     var target_page = ""
     
-    $("#cd-sfx")[0].play()
+    $("#cd-sfx")[0].play().catch(err => console.error("audio failed:", err));
 
     $("#cd-sfx").on("ended", function() {
         $("#tv").addClass("tv-fullscreen");
