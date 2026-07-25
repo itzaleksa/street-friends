@@ -23,7 +23,7 @@ $(function() {
             $(".fun-fact-button").text(fun_fact[dice]);
         },
         "squiddo": () => {
-            const fun_fact = ["Squiddo's favorite dish is carbonara pasta.", "Plays football", "Squiddo hates peanut butter", "Squiddo is aromantic.", "Squiddo is very smart.", "Squiddo is really into board games.", "Squiddo keeps a secret coin collection, Not even Doggie knows about it.", "Squiddo's favorite animal is a squid.", "Squiddo's favorite flower is a Ivy.", "Squiddo's favorite food taste is Umami.", "Squiddo's favorite sport is football."];
+            const fun_fact = ["Squiddo's favorite dish is carbonara pasta.", "Squiddo hates peanut butter", "Squiddo is aromantic.", "Squiddo is very smart.", "Squiddo is really into board games.", "Squiddo keeps a secret coin collection, Not even Doggie knows about it.", "Squiddo's favorite animal is a squid.", "Squiddo's favorite flower is a Ivy.", "Squiddo's favorite food taste is Umami.", "Squiddo's favorite sport is football."];
             dice = Math.round(Math.random() * (fun_fact.length - 1));
             console.log("Squiddo Fun Facts Count: ", fun_fact.length)
             $(".fun-fact-button").text(fun_fact[dice]);
