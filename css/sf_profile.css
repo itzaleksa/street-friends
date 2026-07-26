@@ -93,43 +93,71 @@
     z-index: 3;
 }
 
-@media (max-width: 1080px) {
+@media (max-height: 900px) {
     html {
         height: 100dvh;
     }
 
+    .totally-body {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 15vw;
+        right: 5%;
+    }
+
     .title {
-        font-size: 4vw;
+        font-size: 4vh;
     }
     .description-big {
-        font-size: 2.5vw;
+        font-size: 2.5vh;
+    }
+
+    .right-container {
+        z-index: 2;
+        width: 25vw;
     }
 
     .spotlight-overlay {
         position: absolute;
-        left: -5vw;
-        width: 125vh;
+        left: 0;
+        width: 100vw;
         height: 100vh;
         z-index: 1;
     }
 
     #alek-character, #qd-character {
-        width: 37vh;
+        transform: translate(-50%, -50%);
+        width: 47vh;
+        left: 29vw;
+        margin-bottom: 0;
+        bottom: -16vh;
     }
-
+    
     #squiddo-character, #doggie-character {
-        width: 28vw;
+        width: 44vh;
+        transform: translate(-50%, -50%);
+        left: 29vw;
+        margin-bottom: 0;
+        bottom: -16vh;
     }
-
+    
     #jake-character, #emily-character, #mike-character {
-        width: 30vw;
+        width: 45vh;
+        transform: translate(-50%, -50%);
+        left: 29vw;
+        margin-bottom: 0;
+        bottom: -16vh;
     }
-
+    
     #alyson-character {
-        width: 32vw;
+        width: 49vh;
+        transform: translate(-50%, -50%);
+        left: 29vw;
+        margin-bottom: 0;
+        bottom: -16vh;
     }
 
-    .right-container {
-        z-index: 2;
-    }
 }
