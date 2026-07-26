@@ -3,6 +3,11 @@
     background-size: cover;
 }
 
+body {
+    height: 100dvh;
+    overflow: hidden;
+}
+
 .middle-container {
     justify-content: space-between;
     height: 100vh;
@@ -114,7 +119,7 @@
         height: 14vw;
     }
     #home-image {
-        width: 96px;
-        height: 96px;
+        width: 72px;
+        height: 72px;
     }
 }
