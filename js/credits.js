@@ -168,7 +168,7 @@ const portraits = /*html*/`
 
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0004.png" alt="Portrait">
-    <h1 class="portrait-title">Mika</h1>
+    <h1 class="portrait-title">Levi</h1>
     <div class="socials-container-portrait">
         <a class="social-button" href="https://www.youtube.com/channel/UCbTL23DckV8ISfZvSDis83Q">
             <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
