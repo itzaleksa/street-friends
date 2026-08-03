@@ -82,15 +82,15 @@
 }
 
 .lake-button {
-    aspect-ratio: 1/1;
-    position: fixed;
-    width: 2.5%;
-    bottom: 0%;
-    left: 50%;
-    border: none;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    z-index: 3;
+	aspect-ratio: 1/1;
+	position: fixed;
+	width: 2.5%;
+	bottom: 86%;
+	left: 86%;
+	border: none;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	z-index: 3;
 }
 
 @media (max-height: 900px) {
