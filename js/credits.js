@@ -147,7 +147,7 @@ const portraits = /*html*/`
             <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
         </a>
     </div>
-    <p class="portrait-line">Musician.</p>
+    <p class="portrait-line">Writer, Musician.</p>
 </div>
 
 
@@ -198,7 +198,7 @@ const portraits = /*html*/`
             <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
         </a>
     </div>
-    <p class="portrait-line">Musician, Editor, Voice Actor of Squiddo.</p>
+    <p class="portrait-line">Writer, Musician, Editor, Voice Actor of Squiddo.</p>
 </div>
 
 
@@ -213,21 +213,21 @@ const portraits = /*html*/`
             <img class="social-icon" src="assets/images/socials/twitter.png" alt="Twitter">
         </a>
     </div>
-    <p class="portrait-line">Editor, Voice Actor of Jake.</p>
+    <p class="portrait-line">Editor, Voice Actor of Jake & Ms. Nass.</p>
 </div>
 
 
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0007.png" alt="Portrait">
     <h1 class="portrait-title">Judi</h1>
-    <p class="portrait-line">Voice Actor of Emily, Clawdy, Ruddie and Ms. Karenson.</p>
+    <p class="portrait-line">Writer, Voice Actor of Emily, Clawdy, Ruddie and Ms. Karenson.</p>
 </div>
 
 
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0015.png" alt="Portrait">
     <h1 class="portrait-title">Tali</h1>
-    <p class="portrait-line">Voice Actor of Alyson.</p>
+    <p class="portrait-line">Voice Actor of Alyson & Ms. Penie.</p>
 </div>
 
 
