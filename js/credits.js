@@ -189,19 +189,6 @@ const portraits = /*html*/`
     <p class="portrait-line">Voice Actor of Doggie.</p>
 </div>
 
-
-<div class="portrait-container">
-    <img class="portrait" src="assets/images/portraits/credits0012.png" alt="Portrait">
-    <h1 class="portrait-title">Disturdy</h1>
-    <div class="socials-container-portrait">
-        <a class="social-button" href="https://www.youtube.com/@DisturdyYT">
-            <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
-        </a>
-    </div>
-    <p class="portrait-line">Musician, Editor, Voice Actor of Squiddo.</p>
-</div>
-
-
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0018.png" alt="Portrait">
     <h1 class="portrait-title">JillAstra</h1>
