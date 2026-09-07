@@ -190,6 +190,20 @@ const portraits = /*html*/`
 </div>
 
 <div class="portrait-container">
+    <img class="portrait" src="assets/images/portraits/placeholder_portrait.png" alt="Portrait">
+    <h1 class="portrait-title">ENDEADVA</h1>
+    <div class="socials-container-portrait">
+        <a class="social-button" href="https://www.tiktok.com/@de_end_ad">
+            <img class="social-icon" src="assets/images/socials/tiktok.png" alt="TikTok">
+        </a>
+        <a class="social-button" href="https://www.youtube.com/channel/UCB-PjF1eTaY5HcdacXzbc0w">
+            <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
+        </a>
+    </div>
+    <p class="portrait-line">Voice Actor of Squiddo.</p>
+</div>
+
+<div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0018.png" alt="Portrait">
     <h1 class="portrait-title">JillAstra</h1>
     <div class="socials-container-portrait">
