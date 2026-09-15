@@ -190,7 +190,7 @@ const portraits = /*html*/`
 </div>
 
 <div class="portrait-container">
-    <img class="portrait" src="assets/images/portraits/placeholder_portrait.png" alt="Portrait">
+    <img class="portrait" src="assets/images/portraits/credits0023.png" alt="Portrait">
     <h1 class="portrait-title">ENDEADVA</h1>
     <div class="socials-container-portrait">
         <a class="social-button" href="https://www.tiktok.com/@de_end_ad">
