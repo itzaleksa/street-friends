@@ -235,7 +235,8 @@ body {
     flex-direction: row;
     /* Move items to center */
     justify-content: center;
-    width: 60%;
+    align-self: center;
+    width: 100%;
 }
 
 .social-button {

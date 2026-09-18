@@ -228,6 +228,11 @@ const portraits = /*html*/`
 <div class="portrait-container">
     <img class="portrait" src="assets/images/portraits/credits0015.png" alt="Portrait">
     <h1 class="portrait-title">Tali</h1>
+    <div class="socials-container-portrait">
+        <a class="social-button" href="https://www.twitch.tv/taliofgamingtheegg">
+            <img class="social-icon" src="assets/images/socials/twitch.png" alt="Twitch">
+        </a>
+    </div>
     <p class="portrait-line">Voice Actor of Alyson & Ms. Penie.</p>
 </div>
 
@@ -275,6 +280,26 @@ const portraits = /*html*/`
         </a>
     </div>
     <p class="portrait-line">Artist, Designer, Concept Artist</p>
+</div>
+
+<div class="portrait-container">
+    <img class="portrait" src="assets/images/portraits/credits0024.png" alt="Portrait">
+    <h1 class="portrait-title">Connor</h1>
+    <div class="socials-container-portrait">
+        <a class="social-button" href="https://www.twitch.tv/connor_123_idk">
+            <img class="social-icon" src="assets/images/socials/twitch.png" alt="Twitch">
+        </a>
+        <a class="social-button" href="https://www.youtube.com/@Connor_123_idk">
+            <img class="social-icon" src="assets/images/socials/youtube.png" alt="YouTube">
+        </a>
+        <a class="social-button" href="https://artistree.io/connor123idk">
+            <img class="social-icon" src="assets/images/socials/link.png" alt="Artistree">
+        </a>
+        <a class="social-button" href="https://www.tiktok.com/@connor_123_idk">
+            <img class="social-icon" src="assets/images/socials/tiktok.png" alt="TikTok">
+        </a>
+    </div>
+    <p class="portrait-line">Artist, Designer, Concept Artist, Script Fixer</p>
 </div>
 
 
